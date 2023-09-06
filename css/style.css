@@ -22,6 +22,10 @@ p{
     line-height: 20px;
 }
 
+a{
+    color: white;
+}
+
 /* HEADER */
 
 .navbar{
@@ -68,7 +72,7 @@ p{
 }
 
 .col-4{
-    flex-basis: calc(100% / 12 * 3);
+    flex-basis: calc(100% / 12 * 4);
 }
 
 /* MAIN */
@@ -104,16 +108,13 @@ font-size: 12px;
 font-weight: 600;
 }
 
-.cinquanta{
+.discount{
 background-color: red;
 position: absolute;
 left: 0%;
 bottom: 50px;
 }
 
-.trenta{
-background-color: red;
-}
 
 .sosten{
 background-color: green;
@@ -157,16 +158,14 @@ background-color: green;
 }
 
 .img1{
-    position: absolute;
-    top: 0%;
-    left: 0%;
+    position: relative;
 }
 
 .img2{
     position: absolute;
+    z-index: -1;
     top: 0%;
     left: 0%;
-    z-index: -1;
 }
 
 .col-card:hover .img1{
@@ -194,3 +193,41 @@ background-color: green;
     right: 0%;
     z-index: 99;
 }
+ .item-photos{
+    position: relative;
+ }
+
+ footer{
+    background-color: #1A1A1A;
+    color: white;
+ }
+
+ .col-3{
+    flex-basis: calc(100% / 12 * 3 );
+ }
+
+ .col-2{
+    flex-basis: calc(100% / 12 * 2);
+ }
+
+ footer > a {
+    display: inline-block;
+ }
+
+ /* .company-name{
+
+ }
+  */
+
+ .links{
+    font-size: 12px;
+    /* color: white; */
+ }
+
+ .footer-info{
+    padding: 20px 0;
+ }
+
+ .social{
+    padding: 20px 0;
+ }
