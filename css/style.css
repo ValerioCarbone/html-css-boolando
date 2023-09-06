@@ -86,6 +86,7 @@ p{
 .col-card{
     flex-basis: calc((100% - 30px) / 12 * 4);
     position: relative;
+    
 }
 
 .shopping-card{
@@ -172,9 +173,37 @@ background-color: green;
     z-index: -2
 }
 
-.item-description{
+.heart:hover {
+    color: red;
+}
+
+
+/* .item-description{
     position: absolute;
     bottom: -58px;
     left: 0%;
     
+} */
+
+.heart{
+    background-color: white;
+    padding: 0 16px;
+    font-size: 34px;
+    position: absolute;
+    top: 10px;
+    right: 0%;
+    z-index: 99;
 }
+
+.item-photos{
+    display: block;
+}
+
+.item-description{
+    display: block;
+}
+
+.column{
+    flex-direction: column;
+}
+
