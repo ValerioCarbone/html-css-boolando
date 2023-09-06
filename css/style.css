@@ -1,4 +1,4 @@
-/* RESET */
+/* SETTINGS */
 
 *{
     padding: 0;
@@ -8,16 +8,21 @@
 
 img {
     max-width: 100%;
-    max-height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    font-family: Poppins;
 }
 
 /* HEADER */
 
 .navbar{
-    height: 70px;
     background-color: #FF6900;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.42);
-    position:fixed
 }
 
 .container{
@@ -45,4 +50,29 @@ img {
 
 .menu-icons{
     display: inline-block;
+    max-width: 20px;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    max-width: 140px;
+    padding: 18px 0;
+}
+
+.col-3{
+    flex-basis: calc(100% / 12 * 4);
+}
+
+.menu-items{
+    color: white;
+    font-weight: 600;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
 }
