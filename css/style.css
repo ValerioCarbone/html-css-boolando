@@ -66,6 +66,8 @@ body{
 .menu-icons{
     display: inline-block;
     max-width: 20px;
+    padding-left: 7px;
+    margin: 0 5px;
 }
 
 .icons-container{
@@ -239,3 +241,4 @@ background-color: green;
  .social{
     padding: 20px 0;
  }
+ 
